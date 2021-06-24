@@ -1,0 +1,84 @@
+.dis-color {
+    background-color: #1e88e5;
+    height:100px;
+    margin-top: 64px;
+    padding: 32px;
+    margin-bottom: 20px;
+}
+
+.container{
+    width: 82%;
+    font-family: 'inherit','Poppins', sans-serif;
+
+}
+.features h6{
+    color:white;
+    font-size:25px;
+    letter-spacing: 0.5px;
+    font-weight: semi-bold;
+    padding-top: 10px;
+    font-family: 'inherit','Poppins', sans-serif;
+
+    /* font-family: 'Poppins', sans-serif; */
+
+}
+
+.cross h3{
+    color: #1e88e5;
+    text-align: center;
+    /* font-weight: bold; */
+    padding-top: 40px;
+    font-size: 22px;
+    font-family: 'inherit','Poppins', sans-serif;
+
+    /* font-family: 'Poppins', sans-serif; */
+
+}
+
+.cross-img img{
+    height:80px;
+    display: block;
+    margin:auto;
+}
+
+.web-demo h4{
+    font-size:18px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.web-demo h6{
+    font-size: 15px;
+    line-height: 30px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.web-demo{
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.sub{
+    padding-top:55px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+
+
+.btn a{
+    color:white;
+    text-decoration: none;
+    /* font-weight: bold; */
+    font-size:17px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    padding:13px;
+}
+
+.btn a:hover{
+    text-decoration: underline;
+    font-size: 19px;
+}
+

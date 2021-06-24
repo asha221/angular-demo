@@ -1,0 +1,115 @@
+.events h6{
+        color:white;
+        font-size:25px;
+        letter-spacing: 0.5px;
+        font-weight: semi-bold;
+        padding-top: 10px;
+        /* font-family: 'inherit','Poppins', sans-serif; */
+    
+        font-family: 'Poppins', sans-serif;
+    
+    }
+
+.dis-color {
+        background-color: #1e88e5;
+        height:100px;
+        margin-top: 64px;
+        padding: 32px;
+        margin-bottom: 20px;
+    }
+.container{
+    width:75%;
+}
+
+.where h1{
+    padding-top: 30px;
+    font-size:29px;
+    font-family: 'Poppins-semi-bold', sans-serif;
+    font-weight: semi-bold;
+    letter-spacing: 0.3px;
+}
+
+.where h1:last-child{
+    padding-bottom:20px;
+
+}
+
+.where p{
+    font-size:16px;
+}
+
+h6{
+    padding-top:20px;
+    font-size:16px;
+}
+
+.where p a{
+    text-decoration: none;
+}
+
+.where p a:hover{
+    text-decoration: underline;
+}
+
+/* table decoration */
+
+.demo-table {
+    width: 100%;
+  }
+
+.demo-table a{
+    text-decoration: none;
+    font-size: 16px;
+    
+}
+
+.element-name{
+    padding-right: 150px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.element-symbol,.element-weight{
+    font-size: 15px;
+}
+
+.demo-table a:hover{
+    text-decoration: underline;
+}
+
+  .mat-header-cell{
+      border-right:none;
+      font-size: 15px;
+      background-color: #f8f8f8;
+  }
+
+  .mat-header-cell:last-child{
+      padding-left:50px;
+  }
+
+  .mat-header-cell:first-child{
+      border-right:none;
+  }
+
+  .mat-column-demo-name {
+    padding-left: 16px;
+    border-right: 1px solid #e0e0e0;
+    background:#f8f8f8;
+  }
+  
+  .mat-column-demo-weight {
+    padding-left:20px;
+  }
+
+  .mat-column-demo-symbol{
+      padding-left:500px;
+  }
+    
+  .mat-cell:last-child{
+      padding-left: 50px;
+      font-size: 15px;
+  }
+
+  .element-symbol{
+      padding-left: 80px;
+  }

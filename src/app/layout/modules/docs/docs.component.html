@@ -1,0 +1,29 @@
+<mat-toolbar color="primary">
+  <mat-toolbar-row>
+    <button mat-icon-button (click)="toggleSideBar()">
+      <mat-icon> menu</mat-icon>
+    </button>
+    <a class="mini-header" routerLink="/"><img src="../../../assets/img/logo-nav@2x.png"></a>
+    <div fxFlex fxLayout="row" fxLayoutAlign="flex-start">
+      <ul fxLayout="row" fxLayoutGap="20px">
+        <li><a nav-link routerLink="/features" routerLinkActive="active">FEATURES</a></li>
+        <li><a nav-link routerLink="/docs" routerLinkActive="active">DOCS</a></li>
+        <li><a nav-link routerLink="/resources" routerLinkActive="active">RESOURCES</a></li>
+        <li><a nav-link routerLink="/events" routerLinkActive="active">EVENTS</a></li>
+        <li><a nav-link routerLink="/blog" routerLinkActive="active">BLOG</a></li>
+      </ul>
+    </div>
+    <div fxFlex fxLayout="row" fxLayoutAlign="flex-end">
+      <ul fxLayout="row" fxLayoutGap="20px">
+        <li><button type="submit" class="btn btn-primary btn-lg rounded-pill">Search
+          </button></li>
+        <div class="min-icons rgbor"> <a href="#"><i class="fas fa-moon "></i></a></div>
+        <div class="min-icons"><a href="https://twitter.com/angular"><i class="fab fa-twitter"></i></a></div>
+        <div class="min-icons"><a href="https://github.com/angular/angular"><i class="fab fa-github"></i></a>
+        </div>
+        <div class="min-icons"><a href="https://www.youtube.com/angular"><i class="fab fa-youtube"></i></a>
+        </div>
+      </ul>
+    </div>
+  </mat-toolbar-row>
+</mat-toolbar>
