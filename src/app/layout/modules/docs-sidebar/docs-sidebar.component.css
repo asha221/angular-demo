@@ -1,5 +1,40 @@
-/* :host{
-    .mat-icon{vertical-align: middle;
-              margin-right: 20px;
-            }
-} */
+.mat-nav-list{
+  background-color:#f3f3f3 ;
+}
+
+ a h2{
+  color:#1669bb;
+  padding-top:20px;
+}
+
+.mat-list-item:hover{
+  background-color:blue ;
+  /* padding:20px; */
+  transition: all .3s;
+  transition: box-shadow .28s cubic-bezier(.4,0,.2,1);
+  box-shadow: 0 1px 4px 0 rgb(10 16 20 / 100%);
+  /* border-radius: 4px; */
+}
+
+.btn{
+  color:#546e7a;
+  text-align: center;
+  background-color: white;
+  margin: 10px;
+  margin-bottom: 90px;
+  font-size: 15px;
+  padding-left:20px;
+  padding-top:15px;
+  padding-bottom: 15px;
+  padding-right: 200px;
+  border:none;
+}
+
+
+.mat-icon{
+  /* margin-left: 100px; */
+  display: flex;
+  flex:right;
+}
+
+  

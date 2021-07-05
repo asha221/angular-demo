@@ -1,0 +1,79 @@
+h1{
+    font-size: 40px;
+    padding: 40px;
+    font-family: Roboto,Helvetica Neue Light,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+p{
+    font-size: 20px;
+    /* line-height: 32px; */
+    line-height: 2.2rem;
+    font-family: inherit;
+    font-weight: 400;
+    padding-left: 40px;
+    padding-right:40px;
+    padding-top:10px;
+    padding-bottom: 0px;
+
+}
+
+.example-card {
+    max-width: 400px;
+  }
+  
+ a{
+     text-decoration: none;
+ }
+
+ .mat-card{
+     height: 190px;
+     width:330px;
+      margin-top:50px;
+     /* margin-bottom: 50px;  */
+     /* margin-left:150px;
+     margin-right:30px; */
+ }
+
+ .lastcard{
+     align-content: center;
+     margin-left: 300px;
+ }
+ .mat-card-title{
+     color: #1976d2;
+     padding:0px 50px;
+ }
+
+ .mat-card-content p{
+     font-size: 11px;
+     
+     /* line-height: 20px; */
+ }
+
+ .mat-card-footer p{
+    color: #1669bb;
+    background-color: rgba(25,118,210,.1);
+    border-top: .5px solid #dbdbdb;
+    font-size: 15px;
+    text-align: right;
+    padding-right:5px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+hr{
+    margin:50px 30px;
+}
+
+h2{
+    font-size: 30px;
+    margin-left:40px;
+}
+
+h3{
+    font-size: 25px;
+    margin-left:40px;
+}
+
+ 

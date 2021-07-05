@@ -5,11 +5,15 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './docs-sidebar.component.html',
   styleUrls: ['./docs-sidebar.component.css']
 })
-export class DocsSidebarComponent implements OnInit {
+export class DocsSidebarComponent  {
 
-  constructor() { }
+   constructor() { }
 
   ngOnInit(): void {
   }
 
 }
+  
+
+
+// for dropdown menuhttps://stackblitz.com/edit/dynamic-nested-sidenav-menu?file=app%2Fapp.component.html

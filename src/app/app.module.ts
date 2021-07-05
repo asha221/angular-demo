@@ -28,6 +28,12 @@ import { MatMenuModule} from '@angular/material/menu';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { MatListModule} from '@angular/material/list';
 import { DocsSidebarComponent } from './layout/modules/docs-sidebar/docs-sidebar.component';
+import { DocsHeaderComponent } from './layout/modules/docs-header/docs-header.component';
+import { MatSelectModule} from '@angular/material/select';
+import { IntrodComponent } from './layout/modules/docs/introd/introd.component';
+import { GettingComponent } from './layout/modules/docs/getting/getting.component';
+import { UnderstandingComponent } from './layout/modules/docs/understanding/understanding.component';
+import { MatCardModule} from '@angular/material/card';
 
 @NgModule({
   declarations: [
@@ -46,6 +52,10 @@ import { DocsSidebarComponent } from './layout/modules/docs-sidebar/docs-sidebar
     DevelopmentComponent,
     CommunityComponent,
     DocsSidebarComponent,
+    DocsHeaderComponent,
+    IntrodComponent,
+    GettingComponent,
+    UnderstandingComponent
   ],
   imports: [
     BrowserModule,
@@ -60,6 +70,8 @@ import { DocsSidebarComponent } from './layout/modules/docs-sidebar/docs-sidebar
     MatMenuModule,
     FlexLayoutModule,
     MatListModule,
+    MatSelectModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]

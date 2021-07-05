@@ -1,4 +1,4 @@
-import { Component, OnInit, Output,EventEmitter } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-docs',
@@ -7,14 +7,15 @@ import { Component, OnInit, Output,EventEmitter } from '@angular/core';
 })
 export class DocsComponent implements OnInit {
 
-  @Output() toggleSideBarForMe: EventEmitter<any>= new EventEmitter();
+  sideBarOpen=true;
 
   constructor() { }
 
   ngOnInit(): void {
   }
 
-  toggleSideBar(){
-    this.toggleSideBarForMe.emit();
+  sideBarToggler(EventEmitter:any){
+    this.sideBarOpen=!this.sideBarOpen;
   }
+ 
 }
